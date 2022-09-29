@@ -2,6 +2,7 @@ import React from "react";
 import Card from "../components/Card";
 import Content from "../components/Content";
 import Hero from "../components/Hero";
+import Items from "../components/Items";
 import Navbar from "../components/Navbar";
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
       <Hero />
       <Card />
       <Content />
+      {/* <Items /> */}
     </div>
   );
 };
