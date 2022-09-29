@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "../components/Card";
 import Content from "../components/Content";
+import Customize from "../components/Customize";
 import Hero from "../components/Hero";
 import Items from "../components/Items";
 import Navbar from "../components/Navbar";
@@ -12,7 +13,8 @@ const Home = () => {
       <Hero />
       <Card />
       <Content />
-      {/* <Items /> */}
+      <Items />
+      <Customize />
     </div>
   );
 };

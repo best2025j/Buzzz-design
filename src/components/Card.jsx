@@ -22,7 +22,7 @@ const Card = () => {
         </h1>
 
         <div className="items-center flex flex-row justify-center">
-          <div className="grid grid-cols-1 sm:grid-col-3 lg:grid-cols-3 gap-x-6 gap-y-5 py-40 max-w-[1240px]">
+          <div className="grid grid-cols-3 gap-x-6 gap-y-5 py-40 max-w-[1240px]">
             <div className="rounded-xl shadow-lg w-[300px] h-[250px]">
               <div className="mx-auto text-center items-center flex flex-col relative -top-20 space-y-1">
                 <div className="bg-[#8100F7] rounded-3xl flex justify-center items-center h-36 w-36 p-4  ">
