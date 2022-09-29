@@ -21,11 +21,11 @@ const Card = () => {
           Why <span className="text-[#00B380]">Buzzz</span>
         </h1>
 
-        <div className="items-center flex justify-center">
+        <div className="items-center flex flex-row justify-center">
           <div className="grid grid-cols-1 sm:grid-col-3 lg:grid-cols-3 gap-x-6 gap-y-5 py-40 max-w-[1240px]">
             <div className="rounded-xl shadow-lg w-[300px] h-[250px]">
               <div className="mx-auto text-center items-center flex flex-col relative -top-20 space-y-1">
-                <div className="bg-[#8100F7] rounded-3xl flex justify-center items-center h-32 w-32 p-4  ">
+                <div className="bg-[#8100F7] rounded-3xl flex justify-center items-center h-36 w-36 p-4  ">
                   <img src={img1} alt="" />
                 </div>
                 <h1 className="text-md w-40 font-extrabold">
@@ -39,7 +39,7 @@ const Card = () => {
             </div>{" "}
             <div className="rounded-xl shadow-lg w-[300px] h-[250px]">
               <div className="mx-auto text-center items-center flex flex-col relative -top-20 space-y-1">
-                <div className="bg-[#EF0034] rounded-3xl flex justify-center items-center h-32 w-32 p-4  ">
+                <div className="bg-[#EF0034] rounded-3xl flex justify-center items-center h-36 w-36 p-4  ">
                   <img src={img2} alt="" />
                 </div>
                 <h1 className="text-md w-40 font-extrabold">
@@ -53,7 +53,7 @@ const Card = () => {
             </div>{" "}
             <div className="rounded-xl shadow-lg w-[300px] h-[250px]">
               <div className="mx-auto text-center items-center flex flex-col relative -top-20 space-y-1">
-                <div className="bg-[#FFAF0B] rounded-3xl flex justify-center items-center h-32 w-32 p-4  ">
+                <div className="bg-[#FFAF0B] rounded-3xl flex justify-center items-center h-36 w-36 p-4  ">
                   <img src={img3} alt="" />
                 </div>
                 <h1 className="text-md w-40 font-extrabold">
