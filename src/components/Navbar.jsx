@@ -11,7 +11,7 @@ const Navbar = () => {
         <a href="/">
           <img src={logo} alt="" />
         </a>
-        <div className="flex space-x-5 items-center  text-sm">
+        <div className="flex space-x-5 items-center text-sm">
           <ul className="flex space-x-4">
             <li>Home</li>
             <li>Catalog</li>

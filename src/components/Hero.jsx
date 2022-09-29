@@ -6,26 +6,28 @@ import img2 from "../Assets/BG(3).png";
 
 const Hero = () => {
   return (
-    <div className="relative">
+    <div className="w-full h-screen">
       <div className="">
-        <img src={img2} alt="" className="w-full h-[98vh] " />
-      </div>
-      <div className="absolute top-4">
-        <img src={img} alt="" className="w-full h-[98vh] " />
-      </div>
-
-      <div className="flex absolute top-1">
-        <div className="relative left-24 pt-[200px] space-y-6">
-          <h1 className="text-6xl max-w-[30rem] text-white">
-            <b>Create</b> and <b>sell</b> custom products for your <b>fans</b>
-          </h1>
-          <p className="w-60 text-black">
-            Turn your ideas into premium products that leave a lasting
-            impression.
-          </p>
-        </div>
         <div className="">
-          <img src={img1} alt="" className="w-ful h-screen" />
+          <img src={img2} alt="" className="w-full h-[98vh]" />
+        </div>
+        <div className="absolute top-4 left-0 right-0">
+          <img src={img} alt="" className="w-full h-[98vh]" />
+        </div>
+
+        <div className="flex absolute top-1">
+          <div className="relative left-24 pt-[200px] space-y-6">
+            <h1 className="text-6xl max-w-[30rem] text-white">
+              <b>Create</b> and <b>sell</b> custom products for your <b>fans</b>
+            </h1>
+            <p className="w-60 text-black">
+              Turn your ideas into premium products that leave a lasting
+              impression.
+            </p>
+          </div>
+          <div className="">
+            <img src={img1} alt="" className="w-ful h-screen" />
+          </div>
         </div>
       </div>
     </div>
