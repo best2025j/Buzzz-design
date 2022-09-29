@@ -12,15 +12,15 @@ const Signup = () => {
           <img src={img} alt="w-full h-full" width={437} height={450} />
         </div>
         {/*  */}
-        <div className="w-1/2 flex flex-col justify-center mx-auto items-center space-y-6">
+        <div className="w-1/2 flex flex-col justify-center mx-auto items-center space-y-6 px-36">
           <img src={img1} className="w" alt="" />
           <img src={img2} className="" alt="" />
           <div>
             <form action="" className="space-y-5">
-              <div>
+              <div className="w-full">
                 <label htmlFor="">Your name or brand</label>
                 <input
-                  className="w-full p-3 rounded-md outline-none border"
+                  className="w-full p-3 rounded-md outline-none focus:border-[#00b380] border"
                   placeholder="create buzz"
                   type="text"
                 />
@@ -28,7 +28,7 @@ const Signup = () => {
               <div>
                 <label htmlFor="">Email</label>
                 <input
-                  className="w-full p-3 rounded-md outline-none border"
+                  className="w-full p-3 rounded-md outline-none focus:border-[#00b380] border"
                   placeholder="mail@abc.com"
                   type="text"
                 />
@@ -36,15 +36,15 @@ const Signup = () => {
               <div>
                 <label htmlFor="">Password</label>
                 <input
-                  className="w-full p-3 rounded-md outline-none border"
+                  className="w-full p-3 rounded-md outline-none focus:border-[#00b380] border"
                   placeholder="**********"
                   type="password"
                 />
-              </div>{" "}
+              </div>
               <div>
                 <label htmlFor="">Confrim Password</label>
                 <input
-                  className="w-full p-3 rounded-md outline-none border"
+                  className="w-full p-3 rounded-md outline-none focus:border-[#00b380] border"
                   placeholder="**********"
                   type="password"
                 />
@@ -60,6 +60,7 @@ const Signup = () => {
                   Create Account
                 </button>
               </div>
+              {/* <h1 className="float-right">Back to buzz</h1>{" "} */}
             </form>
           </div>
         </div>

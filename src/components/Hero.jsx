@@ -16,7 +16,7 @@ const Hero = () => {
 
       <div className="flex absolute top-1">
         <div className="relative left-24 pt-[200px] space-y-6">
-          <h1 className="text-6xl w-[30rem] text-white">
+          <h1 className="text-6xl max-w-[30rem] text-white">
             <b>Create</b> and <b>sell</b> custom products for your <b>fans</b>
           </h1>
           <p className="w-60 text-black">
