@@ -22,8 +22,8 @@ const Content = () => {
             Exercitationveniam consequat sunt nostrud amet.
           </p>
           <div className="">
-            <img src={img4} alt="apple" className="h-20" />
-            <img src={img5} alt="apple" className="h-14 w-40" />
+            <img src={img4} alt="apple" className="h-20 w-44" />
+            <img src={img5} alt="apple" className="h-14 w-44" />
           </div>
         </div>
         <div className="w-full h-screen ">

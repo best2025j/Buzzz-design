@@ -12,7 +12,7 @@ const Signup = () => {
           <img src={img} alt="w-full h-full" width={437} height={450} />
         </div>
         {/*  */}
-        <div className="w-1/2 flex flex-col justify-center mx-auto items-center space-y-6 px-36">
+        <div className="w-1/2 flex flex-col justify-center mx-auto items-center space-y-6 px-40">
           <img src={img1} className="w" alt="" />
           <img src={img2} className="" alt="" />
           <div>

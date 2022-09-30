@@ -5,6 +5,7 @@ import Customize from "../components/Customize";
 import Hero from "../components/Hero";
 import Items from "../components/Items";
 import Navbar from "../components/Navbar";
+import Red from "../components/Red";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Content />
       <Items />
       <Customize />
+      <Red />
     </div>
   );
 };

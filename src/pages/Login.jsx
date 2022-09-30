@@ -17,7 +17,7 @@ const Login = () => {
         </div>
         {/*  */}
 
-        <div className="w-1/2 flex flex-col justify-center mx-auto items-center space-y-4 p-36">
+        <div className="w-1/2 flex flex-col justify-center mx-auto items-center space-y-4 p-40">
           <img src={img1} className="" alt="" />
           <img src={img2} className="" alt="" />
 

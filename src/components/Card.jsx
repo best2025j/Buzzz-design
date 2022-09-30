@@ -8,7 +8,7 @@ const Card = () => {
   return (
     <div className="py-10 w-full h-screen">
       <div className="max-w-[1240px] tracking-widest py-10 mx-auto flex flex-col justify-center  text-center items-center">
-        <h1 className="font-medium text-xl text-black">
+        <h1 className="font-medium text-xl tracking-tight  text-black">
           Trusted by 5,000+ Companies and influencers Worldwide
         </h1>
         <div className="flex space-x-6 ">
