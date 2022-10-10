@@ -1,13 +1,14 @@
 import React from "react";
-import img from "../Assets/Group 16.png";
-import img1 from "../Assets/tsh.png";
-import img2 from "../Assets/tshirt2.png";
-import img3 from "../Assets/t-shirt 1.png";
+import img2 from "../../Assets/Company.png";
 
 const Card = () => {
   return (
-    <div className="py-10 w-full h-screen">
-      <div className="max-w-[1240px] tracking-widest py-10 mx-auto flex flex-col justify-center  text-center items-center">
+    <div className="w-full h-full py-5">
+      <div className="mx-auto hidden md:flex justify-center items-center">
+        <img src={img2} alt="" className="max-w-[940px] h-full " />
+      </div>
+
+      {/* <div className="max-w-[1240px] tracking-widest py-10 mx-auto flex flex-col justify-center  text-center items-center">
         <h1 className="font-medium text-xl tracking-tight  text-black">
           Trusted by 5,000+ Companies and influencers Worldwide
         </h1>
@@ -15,7 +16,6 @@ const Card = () => {
           <img src={img} alt="" className="max-w-4xl h-full" />
         </div>
       </div>
-      {/*  */}
       <div className="m-5">
         <h1 className="font-bold text-3xl text-center">
           Why <span className="text-[#00B380]">Buzzz</span>
@@ -65,10 +65,9 @@ const Card = () => {
                 </p>
               </div>
             </div>
-            {/*  */}
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

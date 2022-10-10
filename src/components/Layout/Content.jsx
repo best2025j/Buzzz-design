@@ -1,16 +1,21 @@
 import React from "react";
-import img2 from "../Assets/mobile muckup.png";
-import img3 from "../Assets/image 290 (Traced).png";
-import img4 from "../Assets/image 288.png";
-import img5 from "../Assets/image 289.png";
+import img from "../../Assets/Why buz.png";
+import img1 from "../../Assets/CTA(1).png";
+
 
 const Content = () => {
   return (
-    <div className="relative pt-32 text-white">
-      <div className="items-center flex justify-center absolute top-3 left-0 right-40">
-        <img src={img3} alt="" />
+    <div className="w-full h-full">
+      <div className="mx-auto flex flex-col justify-center items-center ">
+        <div className="z-20 relative">
+          <img src={img} alt="" className="" />
+        </div>{" "}
+        <div className="relative -top-[7.5rem]">
+          <img src={img1} alt="" className="" />
+        </div>
       </div>
-      <div className="w-full bg-[#00B380] h-screen flex">
+
+      {/* <div className="w-full bg-[#00B380] h-screen flex">
         <div className="left-24 relative pt-40 space-y-3 justify-center flex-col">
           <h1 className="text-base">Get Our Aplication</h1>
           <h1 className="text-4xl w-[64%] font-bold">
@@ -29,7 +34,7 @@ const Content = () => {
         <div className="w-full h-screen ">
           <img src={img2} alt="" className="w-full h-full" />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

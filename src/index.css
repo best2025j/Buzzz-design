@@ -9,6 +9,6 @@ html {
 
 @layer base {
   body {
-    @apply select-none font-[Poppins];
+    @apply select-none overflow-x-hidden;
   }
 }
