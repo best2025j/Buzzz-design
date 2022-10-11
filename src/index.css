@@ -9,6 +9,6 @@ html {
 
 @layer base {
   body {
-    @apply select-none overflow-x-hidden;
+    /* @apply select-none ; */
   }
 }
