@@ -6,20 +6,23 @@ import img2 from "../../Assets/header-pic.png";
 const Hero = () => {
   return (
     <div className="w-full h-screen">
-      <img src={img1} alt="" className="w-full h-screen" />
-      <div className="flex absolute h-full w-[90%] top-0">
-        <div className="pt-[10rem] relative left-[6rem] z-10 space-y-6">
-          <h1 className="text-5xl w-[40%] text-white">
+      <img src={img1} alt="" className="w-full md:h-screen h-[30rem]" />
+      <div className="md:flex absolute h-full w-[90%] top-0 left-0 right-0 mx-auto md:mx-0">
+        <div className="md:pt-[10rem] text-center md:text-start pt-[8rem] relative md:left-[6rem] z-10 space-y-6">
+          <h1 className="text-5xl md:w-[40%] text-white  md:mx-0 mx-auto">
             <b>Create</b> and <b>sell</b> custom products for your <b>fans</b>
           </h1>
-          <p className="w-[18rem]">
+          <p className="w-[18rem] md:mx-0 mx-auto">
             Turn your ideas into premium products that leave a lasting
             impression.
           </p>
         </div>
-        <img src={img2} alt="" className="w-[80%] h-screen left-80 absolute" />
+        <img
+          src={img2}
+          alt=""
+          className="hidden md:block md:w-[60%] lg-w-[80%] md:h-screen left-80 absolute"
+        />
       </div>
-    
     </div>
   );
 };
